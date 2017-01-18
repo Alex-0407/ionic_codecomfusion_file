@@ -1,7 +1,9 @@
 # ionic_codecomfusion_file
-1
 
-ionic工程发布之前的最后一步，即代码压缩（获取更好的性能）以及代码混淆（以免源码被有心者轻易获取）。包括以下步骤：
+ionic代码压缩与混淆技术
+
+  
+  ionic工程发布之前的最后一步，即代码压缩（获取更好的性能）以及代码混淆（以免源码被有心者轻易获取）。包括以下步骤：
 
 （cordova hook）检查javascript：这一步需要在代码压缩和代码混淆之前进行以保证javascript代码无错误
 
@@ -215,7 +217,7 @@ $ npm instal mv --save-dev
 
 2.复制cordova hooks文件：
 
-将这些文件添加至$PROJECT_DIR/hooks/after_prepare文件夹中。并且要注意这些文件中的有关路径的操作，是对应于前几步中的路径的，如果工程结构不一样，请自行调整这些文件中有关路径的部分。特别注意需要给予此文件“可执行”的权限，即
+将这些文件（https://github.com/Alex-0407/ionic_codecomfusion_file）添加至$PROJECT_DIR/hooks/after_prepare文件夹中。并且要注意这些文件中的有关路径的操作，是对应于前几步中的路径的，如果工程结构不一样，请自行调整这些文件中有关路径的部分。特别注意需要给予此文件“可执行”的权限，即
 
 $ chmod +x file_name
 
