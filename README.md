@@ -217,7 +217,7 @@ $ npm instal mv --save-dev
 
 2.复制cordova hooks文件：
 
-将这些文件（https://github.com/Alex-0407/ionic_codecomfusion_file）添加至$PROJECT_DIR/hooks/after_prepare文件夹中。并且要注意这些文件中的有关路径的操作，是对应于前几步中的路径的，如果工程结构不一样，请自行调整这些文件中有关路径的部分。特别注意需要给予此文件“可执行”的权限，即
+将这些文件（ https://github.com/Alex-0407/ionic_codecomfusion_file ）添加至$PROJECT_DIR/hooks/after_prepare文件夹中。并且要注意这些文件中的有关路径的操作，是对应于前几步中的路径的，如果工程结构不一样，请自行调整这些文件中有关路径的部分。特别注意需要给予此文件“可执行”的权限，即
 
 $ chmod +x file_name
 
